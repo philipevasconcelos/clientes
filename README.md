@@ -19,14 +19,3 @@ Para realizar o cadastro do cliente o usuário deve clicar em uma opção chamad
 Ao preencher o campo CEP com um cep válido os campos de Logradouro, UF, Bairro e Cidade, serão preenchidos automaticamente. Caso o usuário digite um cep invalido o campo não será preenchido. Esse preenchimento automático ocorre através uma API ViaCEP implementada com JavaScript. 
 Após realizar o cadastro do cliente o usuário e direcionado para a lista de clientes cadastrados.
 Navegando nas opções na parte superior do sistema o usuário pode encerrar a seção clicando em Sair.
-
-
-$nomecompleto = filter_input(INPUT_POST,'nomecompleto');
-    $datanasc = filter_input(INPUT_POST,'datanasc');
-    $email = filter_input(INPUT_POST,'email');
-    $cep = filter_input(INPUT_POST,'cep');
-    $logradouro = filter_input(INPUT_POST,'logradouro');
-    $uf = filter_input(INPUT_POST,'uf');
-    $bairro = filter_input(INPUT_POST,'bairro');
-    $cidade = filter_input(INPUT_POST,'cidade');
-    $complemento = filter_input(INPUT_POST,'complemento');
